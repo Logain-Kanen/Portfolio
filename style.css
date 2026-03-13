@@ -48,6 +48,38 @@ a{
     height: 70%;
 }
 
+/* General CSS */
+
+.card{
+    background-color: rgb(90, 0, 0);
+    border-left: 7px solid black;
+    color: white;
+    height: auto;
+    margin: 20px auto;
+    min-height: 100px;
+    width: 90%;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+.card a img{
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.card h1{
+    margin-bottom: 20px;
+}
+.card p a:link{
+    color: white;
+}
+.card p a:hover{
+    color: black;
+}
+.card p a:visited{
+    color: rgb(105, 105, 105);
+}
+
 /* Footer */
 
 footer{
